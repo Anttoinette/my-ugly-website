@@ -1,0 +1,63 @@
+
+.body {
+    background-color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+h1{
+    font-family: "Luxurious Script";
+    font-size: 200px;
+    text-align: center;
+}
+
+a :hover {
+    transform: scale(0,1);
+    transition: 1.1s;
+    display: block;
+}
+img {
+
+width: 25%;
+border: 5px solid goldenrod;
+box-shadow: 0px 13px 40px 4px rgba(230,30,30,0.75);
+-webkit-box-shadow: 0px 13px 40px 4px rgba(230,30,30,0.75);
+-moz-box-shadow: 0px 13px 40px 4px rgba(230,30,30,0.75);
+aspect-ratio: 1/1;
+border-radius: 50%;
+
+}
+
+p{
+    color: red;
+
+}
+
+img.img1 {
+    width: 25%;
+border: 5px solid goldenrod;
+box-shadow: 0px 13px 40px 4px rgba(230,30,30,0.75);
+-webkit-box-shadow: 0px 13px 40px 4px rgba(230,30,30,0.75);
+-moz-box-shadow: 0px 13px 40px 4px rgba(230,30,30,0.75);
+aspect-ratio: 1/1;
+border-radius: 50%;
+    filter: sepia(200);
+
+}
+img.img2 {
+filter: blur(5px);
+}
+img.img3 {
+filter: grayscale(1);
+filter: invert(100);
+}
+img.img4 {
+filter: blur(5px);
+}
+img.img5 {
+filter: grayscale(0.1);
+filter: invert(50);
+}
+.background{
+    background-color: black;
+}
